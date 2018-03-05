@@ -29,6 +29,6 @@ p_load("scales")
 p_load_gh("timelyportfolio/rcdimple")
 p_load("usethis")
 
-usethis::use_course()
+
 
 

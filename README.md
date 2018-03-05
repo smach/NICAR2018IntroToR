@@ -10,7 +10,7 @@ I can't predict how many people might show up to a repeat session early on a Sat
 
 2. Download the free, open-source version of RStudio Desktop (not server) from the [RStudio website](https://www.rstudio.com/products/rstudio/download/). Install it as you would any other software program.
 
-3. Open RStudio. Type the following line of code in the bottom left panel at the `>` prompt:
+3. Open RStudio. Type the following line of code in the bottom left panel at the `>` prompt (it may just be one large panel at the left instead of a top and bottom):
 
 ```
 install.packages("pacman")
@@ -31,7 +31,19 @@ and hit return or enter. As you might have guessed, that installs an external R 
 ```
 usethis::use_course("https://github.com/smach/NICAR2018IntroToR/archive/master.zip")
 ```
-This should download all the session files to your local system, and create a new project for them within RStudio.
+This should download all the session files to your local system, and create a new project for them within RStudio. You'll be asked if you want to proceed with the download (choose yes) and whether you want to subsequently delete the zip file after it's unzipped (you probably do).
+
+RStudio should now open in the directory containing your new project files. If it hasn't, find the IntroToR.Rproj file and click to open that.
+
+6. At the `>` prompt in your lower left pane, type:
+
+```
+source("config.R")
+```
+
+and hit return or enter. That should load all the other R packages you need for the session.
+
+
 
 
 

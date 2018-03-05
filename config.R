@@ -3,6 +3,7 @@ if(!require("pacman")){
 }
 
 library(pacman)
+p_load("here")
 p_load("rio")
 p_load("dplyr")
 p_load("janitor")
@@ -26,4 +27,8 @@ p_load("sp")
 p_load("skimr")
 p_load("scales")
 p_load_gh("timelyportfolio/rcdimple")
+p_load("usethis")
+
+usethis::use_course()
+
 

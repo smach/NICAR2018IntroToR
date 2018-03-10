@@ -17,7 +17,7 @@ mydata <- rio::import("data/Current_Employee_Names__Salaries__and_Position_Title
 head(mydata)
 tail(mydata)
 
-# R columns shouldn't really have spaces in them. The janitor package's clean_names function will take care of this for us.
+# R column names shouldn't really have spaces in them. The janitor package's clean_names function will take care of this for us.
 mydata <- janitor::clean_names(mydata)
 
 # Let's look at how the data is structured.
